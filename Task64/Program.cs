@@ -21,7 +21,7 @@ namespace HomeWork9
             {
                 while(n < m)
                 {
-                    Console.Write(n);
+                    Console.Write($"{n},");
                     n++;
                 }
                 Console.Write(m);
@@ -30,7 +30,7 @@ namespace HomeWork9
             {
                 while(n > m)
                 {
-                    Console.Write(n);
+                    Console.Write($"{n},");
                     n--;
                 }
                 Console.Write(m);
